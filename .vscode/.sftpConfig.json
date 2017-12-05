@@ -1,0 +1,27 @@
+{
+    "host": "104.131.55.223",
+    "port": 22,
+    "username": "app",
+    "password": "*chayguan223PO",
+    "protocol": "sftp",
+    "agent": null,
+    "privateKeyPath": "/Users/m/.ssh/id_rsa",
+    "passphrase": "*chayguan223PO",
+    "passive": false,
+    "interactiveAuth": false,
+    "remotePath": "/home/app/argame",
+    "uploadOnSave": true,
+    "syncMode": "update",
+    "watcher": {
+        "files": false,
+        "autoUpload": true,
+        "autoDelete": true
+    },
+    "ignore": [
+        "**/.vscode",
+        "**/.git",
+        "**/.DS_Store",
+        "**/.sftpConfig.json",
+        "node_modules"
+    ]
+}
